@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+// For browser is not recognized command: https://stackoverflow.com/questions/58736319/how-to-fix-browser-is-not-recognized-as-an-internal-or-external-command
+
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
     </div>
   );
 }
